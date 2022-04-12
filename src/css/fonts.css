@@ -1,0 +1,15 @@
+@font-face {
+	font-family: "Arial";
+	src: url("../fonts/Arial/arialmt.ttf") format("truetype");
+	src: url("../fonts/Arial/arial_bolditalicmt.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Georgia";
+	src: url("../fonts/Georgia/georgia.ttf") format("truetype");
+	src: url("../fonts/Georgia/georgia_bolditalic.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}

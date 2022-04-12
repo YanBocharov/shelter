@@ -1,0 +1,19 @@
+.start {
+    &__content {
+        display: flex;
+        margin-top: 60px;
+        justify-content: space-between;
+    }
+    &__text {
+        max-width: 460px;
+        display: block;
+    }
+    &__main {
+        position: absolute;
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+        z-index: -1;
+    }
+}

@@ -1,0 +1,43 @@
+.header {
+    height: 60px;
+    margin-top: 60px;
+    &__all {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__logo {
+        width: 185px;
+    }
+    &__links {
+        display: flex;
+        width: 450px;
+        height: 100%;
+        justify-content: space-between;
+        list-style-type: none;
+        align-items: center;
+    }
+    &__title {
+        font-family: 'Georgia';
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 35px;
+        color: #F1CDB3;
+        text-align: center;
+    }
+    &__subtitle {
+        font-weight: 400;
+        font-size: 13px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    &__button {
+        display: block;
+        text-decoration: none;
+        color: #CDCDCD;
+        &.active {
+            color: #FAFAFA;
+            border-bottom: 3px solid #F1CDB3;
+            line-height: 30px;
+        }
+    }
+}
