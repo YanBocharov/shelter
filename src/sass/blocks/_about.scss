@@ -1,0 +1,30 @@
+.about{
+    min-height: 590px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-around;
+    }
+    &__text {
+        width: 430px;
+        height: 380px;
+        margin-top: 95px;
+        p {
+            margin-top: 25px;
+            line-height: 160%;
+            color: #4C4C4C;
+        }
+    }
+    &__title {
+        max-width: 360px;
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        color: #545454;
+        line-height: 45px;
+    }
+    &__img {
+        margin-top: 80px;
+    }
+
+}
