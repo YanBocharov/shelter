@@ -15,11 +15,13 @@
         color: #545454;
     }
     &__slider {
+        max-width: 1200px;
         margin-top: 70px;
     }
     &__slide {
-        max-width: 270px;
-        margin: 0 90px;
+        max-width: 300px;
+        margin: 0 auto;
+        margin: 0 45px 0 45px;
         background: #FAFAFA;
         border-radius: 9px;
         img {
