@@ -1,0 +1,45 @@
+.footer {
+    min-height: 350px;
+    background: url('../../img/footer/footer-background.png') center center/cover no-repeat;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 40px;
+        padding-top: 40px;
+    }
+    &__questions {
+        margin-top: 15px;
+    }
+    &__waiting {
+        margin-top: 20px;
+    }
+    &__title {
+        width: 270px;
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 130%;
+        color: #FFFFFF;
+    }
+    &__item {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        margin-top: 40px;
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 115%;
+        color: #F1CDB3;
+        &-mt33 {
+            margin-top: 33px;
+        }
+    }
+    &__link {
+        display: block;
+        text-decoration: none;
+        color: #F1CDB3;
+    }
+}
