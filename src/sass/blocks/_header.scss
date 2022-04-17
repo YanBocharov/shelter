@@ -1,44 +1,97 @@
 .header {
-    height: 60px;
-    margin-top: 60px;
-    &__all {
+    min-height: 908px;
+    background: url(../../img/start-screen-background.png) center center/cover no-repeat;
+    z-index: -1;
+    padding: 0 10px;
+    &__menu {
         display: flex;
         justify-content: space-between;
-    }
-    &__logo {
-        width: 185px;
-    }
-    &__links {
-        display: flex;
-        width: 450px;
-        height: 100%;
-        justify-content: space-between;
-        list-style-type: none;
         align-items: center;
+        min-height: 60px;
+        padding-top: 60px;
+    }
+    &__nav {
+        display: flex;
+        gap: 35px;
+    }
+    &__link {
+        display: block;
+        color: #CDCDCD;
+        text-decoration: none;
+    }
+    &__btn {
+        width: 207px;
+        height: 52px;
+        background: #F1CDB3;
+        border-radius: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    &__link2 {
+        display: block;font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 130%;
+        letter-spacing: 0.06em;
+        color: #292929;
+        text-decoration: none;       
     }
     &__title {
         font-family: 'Georgia';
+        font-style: normal;
         font-weight: 400;
         font-size: 32px;
-        line-height: 35px;
+        line-height: 110%;
         color: #F1CDB3;
-        text-align: center;
+        letter-spacing: 0.06em;
+    }
+    &__title2 {
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 44px;
+        line-height: 130%;
+        color: #FFFFFF;
     }
     &__subtitle {
+        font-family: 'Arial';
+        font-style: normal;
         font-weight: 400;
         font-size: 13px;
-        text-align: center;
+        line-height: 15px;
+        color: #FFFFFF;
         margin-top: 10px;
-        color: #fff;
+        letter-spacing: 0.1em;
     }
-    &__button {
-        display: block;
-        text-decoration: none;
+    &__subtitle2 {
+        padding-top: 40px;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 160%;
         color: #CDCDCD;
-        &.active {
-            color: #FAFAFA;
-            border-bottom: 3px solid #F1CDB3;
-            line-height: 30px;
+    }
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 60px;
+    }
+    &__text {
+        width: 460px;
+    }
+    &__img {
+        display: flex;
+        align-items: flex-end;
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
         }
     }
 }

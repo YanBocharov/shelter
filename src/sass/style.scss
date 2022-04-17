@@ -12,10 +12,15 @@
     margin: 0 auto;
 }
 
+.active {
+    padding-bottom: 7px;
+    border-bottom: 3px solid #F1CDB3;
+    color: #fff;
+}
+
 
 @import 'blocks/media';
 @import 'blocks/header';
-@import 'blocks/start';
 @import 'blocks/about';
 @import 'blocks/pets';
 @import 'blocks/slick';
